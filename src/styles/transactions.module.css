@@ -1,0 +1,29 @@
+.transaction_history {
+    font-family: "Segoe UI";
+    margin: auto;
+    color: #535759;
+    width: 450px;
+    border-collapse: collapse;
+    border: 1px solid #b1bfc7;
+    text-align: center;
+}
+
+th {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #9bdaf2;
+    border: 1px solid #b1bfc7;
+    padding: 2px 0 3px 0;
+}
+
+td {
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid #b1bfc7;
+    padding: 2px 0 3px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #cad5d9;
+}

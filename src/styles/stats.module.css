@@ -1,0 +1,42 @@
+.statistics {
+    width: 250px;
+    margin: auto;
+    border: solid 1px #b1bfc7;
+}
+
+.title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: #9bdaf2;
+    text-align: center;
+}
+
+.stat_list {
+    height: 50px;
+    display: flex;
+    list-style: none;
+    background-color: #cad5d9;
+}
+
+.item {
+    width: 70px;
+    border: solid 1px teal;
+}
+
+.label {
+    font-size: 15px;
+    color: #535759;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.percentage {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #535759;
+}

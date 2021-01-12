@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #b1bfc7;
+}
+
+.description {
+    width: 250px;
+    height: auto;
+}
+
+.avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 1px solid #9bdaf2;
+    /* overflow: hidden; */
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.name {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: #535759;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.tag {
+    font-size: 15px;
+    color: #535759;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.location {
+    font-size: 14px;
+    color: #97a2ae;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #cad5d9;
+    border-radius: 0 0 5px 5px;
+}
+
+.list {
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px teal;
+    /* width: 5px; */
+}
+
+.label {
+    color: #535759;
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.quantity {
+    padding-bottom: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+}
